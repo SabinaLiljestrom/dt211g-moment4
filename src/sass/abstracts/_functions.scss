@@ -1,0 +1,18 @@
+@media (prefers-color-scheme:dark){
+    .container {
+        background-image: url('../images/background-dark.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+        body {
+      background-color: $grey-dark;
+        }
+        .main {
+          background-color: $grey-dark-opacity;
+          color: $white;
+        }
+        h1, h2 {
+          color: $primaryHeading-light;
+        }
+      }
+    

@@ -1,0 +1,30 @@
+$font-stack: 'Roboto', sans-serif;
+/*färgschema ljust*/
+$primaryHeading: #7929ec;
+$primaryText: #e23db4;
+$primaryBackground: #f2e3e6;
+$primary-opacity: rgb(242,227,230,.8);
+$primaryColor: #ffffff;
+$current: #fff18f;
+$primary-hover:#fff18f;
+
+ /*färgschema mörkt*/
+$primaryHeading-light: lighten ($primaryHeading, 20%);
+$grey-dark: #3a393a;
+$grey-dark-opacity: rgb(58,57,58, 0.8);
+$white:#ffffff;
+body {
+    font: 100% $font-stack;
+    background-color: $primaryBackground;
+  }
+
+.main {
+  background-color: $primary-opacity;
+  color: $primaryText;
+}
+
+h1, h2 {
+  font-family: 'Permanent Marker';
+  color: $primaryHeading;
+}
+
