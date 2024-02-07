@@ -21,4 +21,7 @@
 .box3 {
     @extend .box1;
 }
-
+.bild {
+    @include images;
+     max-width: 550px;
+   }

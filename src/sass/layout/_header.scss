@@ -10,12 +10,6 @@ header {
     align-items: center;
     border-bottom: 0.3em solid $primaryHeading;
 }
-
-.bild {
-   @include images;
-    max-width: 550px;
-  }
-
   .logo {
     @include images;
     max-width: 200px;

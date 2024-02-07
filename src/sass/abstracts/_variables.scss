@@ -9,24 +9,12 @@ $primary-hover:#9fd6e0;
 
  /*färgschema mörkt*/
 $primaryColor-dark: darken($primaryColor, 70%);
-$primaryHeading-dark: #cecae6;
+$primaryHeading-dark:lighten($primaryHeading, 20%);
 $grey-dark-opacity: rgb(33,53,74, 0.8);
 $white:#ffffff;
-body {
-    font: 100% $font-stack;
-    background-color: $primaryColor;
-  }
-
-.main {
-  background-color: $primary-opacity;
-  color: $primaryText;
-  max-width: 800px;
-  width: 80%;
-  margin: 0 auto;
-  font-size: 1.2em;
-}
 
 h1, h2 {
   font-family: 'Permanent Marker';
   color: $primaryHeading;
 }
+
