@@ -1,30 +1,32 @@
 $font-stack: 'Roboto', sans-serif;
 /*färgschema ljust*/
-$primaryHeading: #7929ec;
-$primaryText: #e23db4;
-$primaryBackground: #f2e3e6;
-$primary-opacity: rgb(242,227,230,.8);
-$primaryColor: #ffffff;
-$current: #fff18f;
-$primary-hover:#fff18f;
+$primaryHeading: #4e6db3;
+$primaryText: black;
+$primary-opacity: rgb(219,231,242,.8);
+$primaryColor: #dbe7f2;
+$current: #9fd6e0;
+$primary-hover:#9fd6e0;
 
  /*färgschema mörkt*/
-$primaryHeading-light: lighten ($primaryHeading, 20%);
-$grey-dark: #3a393a;
-$grey-dark-opacity: rgb(58,57,58, 0.8);
+$primaryColor-dark: darken($primaryColor, 70%);
+$primaryHeading-dark: #cecae6;
+$grey-dark-opacity: rgb(33,53,74, 0.8);
 $white:#ffffff;
 body {
     font: 100% $font-stack;
-    background-color: $primaryBackground;
+    background-color: $primaryColor;
   }
 
 .main {
   background-color: $primary-opacity;
   color: $primaryText;
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2em;
 }
 
 h1, h2 {
   font-family: 'Permanent Marker';
   color: $primaryHeading;
 }
-

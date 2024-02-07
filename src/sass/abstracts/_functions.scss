@@ -1,18 +1,28 @@
 @media (prefers-color-scheme:dark){
+  $dark-mode: true;
     .container {
         background-image: url('../images/background-dark.png');
         background-repeat: no-repeat;
         background-size: cover;
        }
         body {
-      background-color: $grey-dark;
+      background-color: $primaryColor-dark;
         }
         .main {
           background-color: $grey-dark-opacity;
           color: $white;
         }
+        
         h1, h2 {
-          color: $primaryHeading-light;
+          color: $primaryHeading-dark;
         }
+        #nav-menu {
+          background-color: $primaryColor-dark;
+        }
+        .bild {
+          @if $dark-mode {
+              border-radius: 50%;
+            }
       }
-    
+      }
+      

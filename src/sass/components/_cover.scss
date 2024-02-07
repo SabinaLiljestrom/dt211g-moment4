@@ -3,16 +3,13 @@
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
-    display: grid;
-    background-image: url('../images/background-iphone.png');
+    background-image: url('../images/background-light.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  @media only screen and (min-width: 992px) {
-    .container{
-    background-image: url('../images/background-light.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-  }
+  @media (prefers-color-scheme:dark){
+    .container {
+        background-image: url('../images/background-dark.png');
+       }
+      }
