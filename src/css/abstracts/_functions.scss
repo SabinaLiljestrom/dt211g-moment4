@@ -6,11 +6,11 @@
         background-size: cover;
        }
         body {
-      background-color: $primaryColor-dark;
+      background-color: $primaryColor-dark !important;
         }
         .main {
-          background-color: $grey-dark-opacity;
-          color: $white;
+          background-color: $grey-dark-opacity !important;
+          color: $white !important;
         }
         
         h1, h2 {
