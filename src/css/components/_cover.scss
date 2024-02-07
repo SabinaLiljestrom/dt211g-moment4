@@ -1,15 +1,15 @@
 .container {
-    /*--utseende behållare med attribut container--*/
-    width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
-    background-image: url('../images/background-light.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /*--utseende behållare med attribut container--*/
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: url('../images/background-light.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  @media (prefers-color-scheme:dark){
-    .container {
-        background-image: url('../images/background-dark.png');
-       }
-      }
+@media (prefers-color-scheme:dark){
+  .container {
+      background-image: url('../images/background-dark.png');
+     }
+    }

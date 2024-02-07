@@ -2,17 +2,16 @@
   $dark-mode: true;
     .container {
         background-image: url('../images/background-dark.png');
-        background-repeat: no-repeat;
-        background-size: cover;
        }
         body {
       background-color: $primaryColor-dark !important;
         }
         .main {
           background-color: $grey-dark-opacity !important;
-          color: $white !important;
         }
-        
+        p {
+          color:  $white;
+        }
         h1, h2 {
           color: $primaryHeading-dark;
         }
@@ -25,4 +24,3 @@
             }
       }
       }
-      
