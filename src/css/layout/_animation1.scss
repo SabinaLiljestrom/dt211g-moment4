@@ -19,9 +19,9 @@
 
 #animation3 {
   transition: width 5s linear 3s;
+  width: auto;
   &:hover {
     text-decoration: dashed overline underline line-through pink 4px;
-    width: auto;
 }
 }
 
