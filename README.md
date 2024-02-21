@@ -1,3 +1,3 @@
 # dt211g-moment3
-## CSS-preprocessorer
+## Dynamiska webbplatser
 Uppgiften är en del av kursen "Frontend-baserad webbutveckling".
